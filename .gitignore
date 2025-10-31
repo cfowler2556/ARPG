@@ -1,0 +1,27 @@
+# Simple UE5 .gitignore for ARPG Project
+# Excludes build junk, keeps Source/, Content/, Config/, .uproject
+
+# Binaries and intermediates (regenerated on build)
+Binaries/
+Intermediate/
+DerivedDataCache/
+Build/
+Saved/Logs/
+Saved/Backup/
+Saved/Crashes/
+Saved/StarterContent/  # If you delete this later
+
+# IDE files (regenerate)
+.vs/
+.vscode/
+*.sln
+*.suo
+*.tmp
+*.user
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# No exclusions for Content/ or Source/—we commit those!
